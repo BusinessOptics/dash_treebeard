@@ -1,0 +1,7 @@
+include dash_treebeard/dash_treebeard.min.js
+include dash_treebeard/dash_treebeard.min.js.map
+include dash_treebeard/metadata.json
+include dash_treebeard/package-info.json
+include README.md
+include LICENSE
+include package.json

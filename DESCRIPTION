@@ -1,0 +1,15 @@
+Package: dashTreebeard
+Title: Dash Tree View Component. Data-Driven, Fast, Efficient and Customisable. Based on react-treebeard.
+Version: 0.0.1
+Description: Dash Tree View Component. Data-Driven, Fast, Efficient and Customisable. Based on react-treebeard.
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: MIT + file LICENSE
+URL: https://github.com/BusinessOptics/dash-treebeard
+BugReports: https://github.com/BusinessOptics/dash-treebeard/issues
+Encoding: UTF-8
+LazyData: true
+KeepSource: true
+Author: James Saunders [aut]
+Maintainer: James Saunders <james@businessoptics.biz>
