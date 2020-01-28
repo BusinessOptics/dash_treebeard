@@ -1,7 +1,7 @@
 import React, {Component, useState} from 'react';
 import PropTypes from 'prop-types';
 import {Treebeard} from 'react-treebeard';
-import defaultTheme from './defaultTheme';
+import defaultTheme from '../defaultTheme';
 
 const decorateData = ({key, name, children}, selected, toggleSet) => {
     return {
@@ -43,6 +43,11 @@ const DashTreebeard = ({id, data, selected, toggled, style, setProps}) => {
             data={decorateData(data, selected, toggled)}
             onToggle={onToggle}
             style={style}
+            decorators={{
+                Header: props => {
+                    return <div style={props.style}>{props.node.name}</div>;
+                },
+            }}
         />
     );
 };
